@@ -1,5 +1,9 @@
 
-
+/*
+    Kargo Coding Assessment
+    Name: Hien Truong
+    Email: hct9at@virginia.edu
+*/
 function main() {
     // Initialize the dictionary to look up 
     var container = {
@@ -27,7 +31,7 @@ function main() {
                 res += container[curr_numb];
             }
             // This is to stop adding comma when we are at the end of iteration
-            if (i < n -1) {
+            if (i < n - 1) {
                 res += ",";
             }
         } else {
